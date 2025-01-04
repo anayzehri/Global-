@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 1em 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+    header nav {
+       margin: auto;
+    }
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1em;
+    }
+
+    header .user-info {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    header .user-info img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    main {
+        padding: 20px;
+    }
+
+    section {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+     .gcn-content, .ppp-content, .cce-content, .ut-content, .settings-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .gcn-summary, .ppp-summary, .cce-summary{
+         flex: 1;
+         min-width: 300px;
+         margin-right: 20px;
+    }
+
+    .gcn-visualizations, .ppp-profile{
+         display: flex;
+         justify-content: space-around;
+         flex-wrap: wrap;
+     }
+
+    .data-card, .profile-item{
+        text-align: center;
+        border: solid 1px #eee;
+        border-radius: 10px;
+        padding: 10px;
+         flex: 1;
+         margin: 5px;
+        min-width: 100px;
+    }
+    .data-card i, .profile-item i {
+        font-size: 30px;
+        color: #007bff;
+    }
+    .data-value{
+        font-weight: bold;
+        color: #007bff;
+    }
+     .ppp-paths{
+       flex: 1;
+       min-width: 300px;
+     }
+
+    .path-item{
+        padding: 10px;
+        border: solid 1px #eee;
+         margin: 10px 0;
+         border-radius: 10px;
+        }
+    .ppp-paths a, .cce-card-footer a, .gcn-summary .view-more-button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .gcn-map {
+        flex: 1;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+     .gcn-map img {
+         max-width: 100%;
+         height: auto;
+         border-radius: 8px;
+     }
+    .gcn-map p {
+        margin-top: 10px;
+        font-style: italic;
+        color: #777;
+    }
+   .cce-projects {
+       display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+   }
+   .cce-card {
+       flex: 1;
+        min-width: 200px;
+       margin: 10px;
+       border: solid 1px #eee;
+       border-radius: 10px;
+       padding: 10px;
+   }
+    .cce-card-footer {
+        text-align: right;
+    }
+   .ut-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+   }
+    .ut-input textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+     .ut-input select {
+         padding: 10px;
+         margin-bottom: 10px;
+        border-radius: 5px;
+     }
+   .ut-input button {
+       padding: 10px;
+       background-color: #007bff;
+       color: white;
+        border-radius: 5px;
+       border: none;
+   }
+   .ut-output{
+       border: solid 1px #eee;
+       border-radius: 10px;
+       padding: 10px;
+    }
+
+    .setting-item{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
